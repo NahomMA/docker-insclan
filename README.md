@@ -4,7 +4,7 @@ Docker is a set of platform as a service products that use OS-level virtualizati
 ## Download and install Docker
 In this section, I'll walk you through how to intall docker on windows and build image, run, push to dockerhub registery.
 
-###Docker Desktop WSL 2 backend
+### Docker Desktop WSL 2 backend
 
 Windows Subsystem for Linux (WSL) 2 introduces a significant architectural change as it is a full Linux kernel built by Microsoft, allowing Linux distributions to run without having to manage Virtual Machines. With Docker Desktop running on WSL 2, users can leverage Linux workspaces and avoid having to maintain both Linux and Windows build scripts. In addition, WSL 2 provides improvements to file system sharing, boot time, and allows access to some cool new features for Docker Desktop users.
 
