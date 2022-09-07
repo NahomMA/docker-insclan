@@ -48,3 +48,28 @@ When running a container, it uses an isolated filesystem. This custom filesystem
 
 
 
+## Dockerfile
+
+
+Docker can build images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. Using docker build users can create an automated build that executes several command-line instructions in succession.
+
+This section guides you on how to use the predefined docker environment to run a sample C program step by step.
+
+### First step:  Wrting the program to run it on a Docker container:
+The Cardinal_challege.c file has:
+>>>Fibonacci:  the sum of the two preceding numbers: This function works for posetive intergers but if you need to consider negative integers please refer to  https://en.wikipedia.org/wiki/Generalizations_of_Fibonacci_numbers
+>>>Reversing a string: It is also helpful to check whether the string is a palindrome or not.
+>>>Sorting of an array
+>>>Adding, reversing and print function implemetations of a single linked list 
+
+### Step 2: Write a dockerfile
+This docker file has a base layer of ubuntu and then installling gcc,compiling the the above C-problems and echoing the output to a schreen.
+
+
+
+
+ 
+
+  
+
+
