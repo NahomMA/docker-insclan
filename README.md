@@ -21,8 +21,30 @@ Follow along https://docs.docker.com/desktop/windows/wsl/
 ## Docker container
 
 
+a container is simply another process on your machine that has been isolated from all other processes on the host machine. That isolation leverages kernel namespaces and cgroups, features that have been in Linux for a long time. Docker has worked to make these capabilities approachable and easy to use.
+
+
+So, containers have to fulfill four major requirements to be acceptable as such:
+Not negotiable: They have to run on a single host. Okay, so two computers cannot run a single container.
+Clearly: They are groups of processes. You might know that Linux processes live inside a tree structure, so we can say containers must have a root process.
+Okay: They need to be isolated, whatever this means in detail.
+Not so clear: They have to fulfill common features. Features in general seem to change over time, so we have to point out what the most common features are.
+ 
+ 	
+
+
+
+
+
+
+
+
+
 
 ## Docker image
+
+What is a container image?¶
+When running a container, it uses an isolated filesystem. This custom filesystem is provided by a container image. Since the image contains the container's filesystem, it must contain everything needed to run an application - all dependencies, configuration, scripts, binaries, etc. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
 
 
 
