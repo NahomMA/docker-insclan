@@ -66,10 +66,7 @@ The Cardinal_challege.c file has:
 This docker file has a base layer of ubuntu and then installling gcc,compiling the the above C-problems and echoing the output to a schreen.
 
 
-
-
- 
-
-  
-
+### You can find the imageconataine from:
+https://hub.docker.com/repository/docker/nashnash/lllptrchallenge
+pulll using: docker pull nashnash/lllptrchallenge:latest
 
