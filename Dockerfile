@@ -6,5 +6,5 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 COPY . .
 WORKDIR .
-RUN gcc -o CLNC Cardinal_challege.c
-CMD [ "./CLNC" ] 
+#RUN gcc -o CLNC Cardinal_challege.c
+#CMD [ "./CLNC" ] 
